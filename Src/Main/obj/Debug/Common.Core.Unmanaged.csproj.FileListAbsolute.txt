@@ -1,0 +1,4 @@
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\build\v1.1\bin\AnyCPU\debug\USC.GISResearchLab.Common.Core.Unmanaged.dll
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\build\v1.1\bin\AnyCPU\debug\USC.GISResearchLab.Common.Core.Unmanaged.pdb
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\src\obj\Debug\USC.GISResearchLab.Common.Core.Unmanaged.dll
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\src\obj\Debug\USC.GISResearchLab.Common.Core.Unmanaged.pdb

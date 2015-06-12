@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tamu", "Tamu", "{5B1D21D3-D044-4FE6-B931-ECD274F4263A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeoInnovation", "GeoInnovation", "{BEC77F92-E25A-4795-875F-22D26F8A9D80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C303A8F9-75D4-4EE0-BF57-6FD1B443D942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1A193B2F-3B9B-452B-97DE-B4A879C2625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Core.Unmanaged", "Common.Core.Unmanaged.csproj", "{9D326165-52D3-459F-B9C5-5E00C339C674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Debug|x86.ActiveCfg = Debug|x86
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Debug|x86.Build.0 = Debug|x86
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Release|x86.ActiveCfg = Release|x86
+		{9D326165-52D3-459F-B9C5-5E00C339C674}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEC77F92-E25A-4795-875F-22D26F8A9D80} = {5B1D21D3-D044-4FE6-B931-ECD274F4263A}
+		{C303A8F9-75D4-4EE0-BF57-6FD1B443D942} = {BEC77F92-E25A-4795-875F-22D26F8A9D80}
+		{1A193B2F-3B9B-452B-97DE-B4A879C2625D} = {C303A8F9-75D4-4EE0-BF57-6FD1B443D942}
+		{9D326165-52D3-459F-B9C5-5E00C339C674} = {1A193B2F-3B9B-452B-97DE-B4A879C2625D}
+	EndGlobalSection
+EndGlobal
