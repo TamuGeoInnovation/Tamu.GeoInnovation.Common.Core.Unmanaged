@@ -1,6 +1,0 @@
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\build\v1.1\bin\AnyCPU\release\USC.GISResearchLab.Common.Core.Unmanaged.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\src\obj\Release\USC.GISResearchLab.Common.Core.Unmanaged.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Unmanaged\src\obj\Release\Common.Core.Unmanaged.csprojResolveAssemblyReference.cache
-C:\DevBuild\Tamu\GeoInnovation\Common\Core\Unmanaged\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Unmanaged.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Core\Unmanaged\Src\Main\obj\Release\Tamu.GeoInnovation.Common.Core.Unmanaged.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Core\Unmanaged\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Unmanaged.dll
