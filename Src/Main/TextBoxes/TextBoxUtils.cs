@@ -1,7 +1,7 @@
 using System;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace USC.GISResearchLab.Common.Forms.Utils.TextBoxes
 {
@@ -54,31 +54,31 @@ namespace USC.GISResearchLab.Common.Forms.Utils.TextBoxes
             Append(textBox, s, false);
         }
 
-		// Kaveh: I've added a control if here to avoid OutOfMemory exceptions where the textbox gets overloaded with trace messages.
-		public static void Append(TextBox textBox, string s, bool autoScroll)
-		{
-			if (s != null)
-			{
-				if ((s.Length + textBox.TextLength) > textBox.MaxLength)
-				{
-					textBox.Text = "Textbox messages truncated from here..." + Environment.NewLine + s;
-					if (autoScroll) ScrollToBottom(textBox);
+        // Kaveh: I've added a control if here to avoid OutOfMemory exceptions where the textbox gets overloaded with trace messages.
+        public static void Append(TextBox textBox, string s, bool autoScroll)
+        {
+            if (s != null)
+            {
+                if ((s.Length + textBox.TextLength) > textBox.MaxLength)
+                {
+                    textBox.Text = "Textbox messages truncated from here..." + Environment.NewLine + s;
+                    if (autoScroll) ScrollToBottom(textBox);
 
-				}
-				else
-				{
-					if (autoScroll)
-					{
-						textBox.AppendText(s);
-						ScrollToBottom(textBox);
-					}
-					else
-					{
-						textBox.Text += s;
-					}
-				}
-			}
-		}
+                }
+                else
+                {
+                    if (autoScroll)
+                    {
+                        textBox.AppendText(s);
+                        ScrollToBottom(textBox);
+                    }
+                    else
+                    {
+                        textBox.Text += s;
+                    }
+                }
+            }
+        }
 
         public static void AppendFormat(TextBox textBox, string s, object arg0)
         {
@@ -100,7 +100,7 @@ namespace USC.GISResearchLab.Common.Forms.Utils.TextBoxes
             AppendFormat(textBox, s, args, false);
         }
 
-        public static void AppendFormat(TextBox textBox, string s, object []args, bool autoScroll)
+        public static void AppendFormat(TextBox textBox, string s, object[] args, bool autoScroll)
         {
             if (s != null)
             {

@@ -5,7 +5,8 @@ using USC.GISResearchLab.Common.Forms.Utils.TextBoxes;
 
 namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
 {
-    public class TextBoxTraceListener: TraceListener {
+    public class TextBoxTraceListener : TraceListener
+    {
 
         #region Properties
         private string _DllPath;
@@ -18,7 +19,7 @@ namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
             get { return _AutoScroll; }
             set { _AutoScroll = value; }
         }
-	
+
         public string DllPath
         {
             get { return _DllPath; }
@@ -183,6 +184,6 @@ namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
             }
             return ret;
         }
-        
-	}
+
+    }
 }

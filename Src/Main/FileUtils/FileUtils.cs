@@ -1,5 +1,5 @@
-﻿using System.Text;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
+using System.Text;
 
 namespace USC.GISResearchLab.Common.Core.Kernel32
 {
